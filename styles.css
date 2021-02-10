@@ -4,5 +4,7 @@
 }
 header
 {
-background-image: <img src="Images\patrick-fore-74TufExdP3Y-unsplash.jpg"
+background-image: img(src="Images\patrick-fore-74TufExdP3Y-unsplash.jpg");
+background-size: cover;
+background-position: center;
 }
