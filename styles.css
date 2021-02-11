@@ -2,29 +2,39 @@
 {
     box-sizing: border-box;
 }
-header
-{
-background-color:blue;
-color:ghostwhite;
-position: relative;
-
-}
-img
-{
-height: 50%;
-width: 50%;
-position: ;
-}
 .center{
     margin-left: auto;
     margin-right:auto;
     width:50%;
     display:block;
 }
+.coverphoto{
+    margin-left: auto;
+    margin-right:auto;
+    width:100%;
+    height:50%;
+}
+header
+{
+color:ghostwhite;
+position: relative;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+img
+{
+height: 50%;
+width: 50%;
+}
+
 body
 {
 background-color:lightpink;
-background-image: src="Images/patrick-fore-74TufExdP3Y-unsplash.jpg";
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size: 100%;
 }
 p
 {
